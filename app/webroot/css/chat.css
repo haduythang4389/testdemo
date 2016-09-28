@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+
+body#mypage {
+    overflow-x: hidden;
+    padding-top: 0;
+    position: relative;
+}
+body {
+	margin: 0;
+	padding: 0;
+   	background-color: #0d9fbe;
+    background-image: linear-gradient(to bottom, #0d9fbe, #0d9fbe);
+    background-repeat: repeat-x;
+}
+body {
+    font-size: 12px;
+}
+nav#slide_left {
+    background-image: url("../img/bg-demo.png");
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 230px;
+}
+nav#slide_right {
+    background-image: url("../img/bg-demo.png");
+    height: 100%;
+    right: 0;
+    position: fixed;
+    top: 0;
+    width: 230px;
+}
+div#main_contents {
+    background: #ffffff none repeat scroll 0 0;
+    left: 42px;
+    overflow-x: hidden;
+    position: relative;
+}
+.navbar {
+    background-color: #0D9FBE;
+    background-image: linear-gradient(to bottom, #0D9FBE, #0D9FBE);
+    background-repeat: repeat-x;
+    height: 80px;
+}
+
+#mainContainer #contentCol .message {
+    border-top: 1px solid #cccccc;
+}
+
+
+#mainContainer #contentCol .message .list {
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    float: left;
+    width: 220px;
+}
+
+#mainContainer #contentCol .message .search_room {
+    padding: 10px 0;
+    position: relative;
+}
+#mainContainer #contentCol .message .list ul {
+    border-top: 1px solid #cccccc;
+    overflow-y: scroll;
+}
+#mainContainer #contentCol .message .list ul li{
+    border-bottom: 1px dotted #b3a9a9;
+    font-size: 14px;
+    line-height: 38px;
+    margin-top: -35px;
+    padding: 0 38px;
+}
+#mainContainer #contentCol .message .search_room input {
+    width: 196px;
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 21px;
+    line-height: 20px;
+    margin: 5px;
+    padding: 4px 6px;
+    vertical-align: middle;
+}
+
+#mainContainer #contentCol .message .room {
+    float: right;
+    padding: 0 0 100px;
+    position: relative;
+    border-right: 1px solid #cccccc;
+}
+
+
+#mainContainer #contentCol .message .room .form {
+    background-color: #f0f0f1;
+    border-top: 1px solid #cdcecf;
+    border-bottom: 1px solid #cdcecf;
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+
+#mainContainer #contentCol .message .room .form textarea {
+    border: medium none;
+    height: 40px;
+    margin-top: 10px;
+    overflow: auto;
+    padding: 5px 5px 35px;
+    resize: none;
+    width: 95%;
+}
+input, textarea, select {
+    font-size: 1em;
+}
+
+#mainContainer #contentCol .message .room .form input.send_msg {
+    background-color: #ffffff;
+    border: 1px solid #0b93cf;
+    border-radius: 15px;
+    color: #0b93cf;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#mainContainer #contentCol .message .room .form .button_area {
+    bottom: 15px;
+    position: absolute;
+    right: 20px;
+}
+#mainContainer #contentCol .message .room .form .button_area ul li {
+    display: inline-block;
+    vertical-align: bottom;
+}
+div#chatarea li.me{
+	background-color: red;
+}
+
+ul.chat {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.chat li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.chat li.left .chat-body {
+   	background: #fcf7ab;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-right: 95px;
+    margin-top: -45px;
+    min-height: 50px;
+    padding: 6px;
+}
+.chat li.right .chat-body {
+    background: #aeedf7 ;
+    border-radius: 15px;
+    margin-left: 95px;
+    margin-right: 60px;
+    min-height: 50px;
+    padding: 6px;
+}
+b, strong {
+    font-weight: bold;
+}
+small, .small {
+    font-size: 85%;
+}
+.chat li .chat-body p {
+    margin: 0;
+    font-size: 15px;
+}
+.pull-right {
+    float: right !important;
+}
+.img-circle {
+    border-radius: 50%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0 none;
+}
+ul.chat li {
+	min-height: 60px;
+}
+li.selected {
+	background-color: #E3EDF7;
+}
+div.timeline {
+	height: 342px; 
+	padding:10px;
+	overflow:auto;
+	background-color: #f4f8fc;
+}
+.list ul a{
+	color: #333333;
+	text-decoration: inherit;
+}
+.list ul a:hover{
+	color: #3683D1;
+	text-decoration: inherit;
+}
+button[type="submit"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: unset;
+    color: #909799;
+    cursor: pointer;
+    font-size: 16px;
+    height: 30px;
+    right: 5px;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+
+.fa-search::before {
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/icon_search.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    content: "　　";
+    display: block;
+    height: 25px;
+    vertical-align: middle;
+    width: 26px;
+}
